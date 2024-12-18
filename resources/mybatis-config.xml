@@ -9,6 +9,8 @@
         <setting name="logImpl" value="LOG4J"/>
         <!-- 配置自动映射级别 -->
         <setting name="autoMappingBehavior" value="FULL"/>
+        <!-- 配置下划线命名法转驼峰命名法 -->
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
     </settings>
 
     <!-- 配置SQL映射文件 -->
